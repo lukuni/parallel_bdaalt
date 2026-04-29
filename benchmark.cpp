@@ -134,3 +134,10 @@ int main() {
     cout << "\n(Дундаж 10 удаагийн хэмжилт, warmup 3)\n";
     return 0;
 }
+
+//cd /Users/oyumaachimeddagva/Documents/F.CSM306/bdaalt/parallel_bdaalt
+//g++ -O2 -Xpreprocessor -fopenmp \
+//  -I/opt/homebrew/opt/libomp/include \
+//  -L/opt/homebrew/opt/libomp/lib -lomp \
+//  -o bucket_sort benchmark.cpp
+//./bucket_sort
